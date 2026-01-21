@@ -24,7 +24,7 @@ require_once "./server.php";
 
     <div class="container">
         <h1 class="text-center my-4">Dischi</h1>
-        <div class="row">
+        <div class="row border rounded mb-3 py-4">
             <?php foreach ($dischi as $disco) { ?>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
@@ -41,7 +41,38 @@ require_once "./server.php";
                 </div>
             <?php } ?>
         </div>
+
+
+        <form action="server.php" method="POST" class="my-5">
+            <div class="card p-4">
+                <h4 class="mb-4">Aggiungi un nuovo disco</h4>
+                <div class="mb-3">
+                    <label for="title" class="form-label">Titolo</label>
+                    <input type="text" id="title" name="title" class="form-control" placeholder="Titolo canzone..." required>
+                </div>
+                <div class="mb-3">
+                    <label for="artist" class="form-label">Artista</label>
+                    <input type="text" id="artist" name="artist" class="form-control" placeholder="Nome artista..." required>
+                </div>
+                <div class="mb-3">
+                    <label for="URL" class="form-label">Cover Album</label>
+                    <input type="url" id="URL" name="URL" class="form-control" placeholder="https://esempio.com/immagine.jpg" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pubblication-year" class="form-label">Anno</label>
+                    <input type="number" id="pubblication-year" name="pubblication-year" class="form-control" placeholder="Anno di pubblicazione..." required>
+                </div>
+                <div class="mb-3">
+                    <label for="genre" class="form-label">Genere</label>
+                    <input type="text" id="genre" name="genre" class="form-control" placeholder="Scrivi il genere della canzone..." required>
+                </div>
+                <button class="btn btn-primary">Aggiungi artista</button>
+            </div>
+        </form>
+
     </div>
+
+
 </body>
 
 </html>
