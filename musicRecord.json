@@ -1,0 +1,44 @@
+[
+        {
+        "title" : "G.O.A.T",
+        "artist" : "Marracash",
+        "URL" : "https://i.scdn.co/image/ab67616d0000b2733661bb9255ab380bef12d981",
+        "pubblication-year" : 2019,
+        "genre" : "Rap"
+        },
+        {
+        "title" : "Bohemian Rhapsody",
+        "artist" : "Queen",
+        "URL" : "https://sfae.blob.core.windows.net/media/ecommercesite/media/sfae/sfae.artwork/342_1.jpg",
+        "pubblication-year" : 1975,
+        "genre" : "Rock progressivo, Hard rock, Art rock"
+        },
+        {
+        "title" : "Bring Me to Life",
+        "artist" : "Evanescence",
+        "URL" : "https://m.media-amazon.com/images/I/51sGzXoLxmL._UF1000,1000_QL80_.jpg",
+        "pubblication-year" : 2003,
+        "genre" : "Nu Metal, Alternative Metal"
+        },
+        {
+        "title" : "Niente Canzoni D'amore",
+        "artist" : "Elodie",
+        "URL" : "https://i.scdn.co/image/ab67616d0000b273bad09f776b795f1adeac2744",
+        "pubblication-year" : 2020,
+        "genre" : "Pop Urban"
+        },
+        {
+        "title" : "Pleasantville",
+        "artist" : "Nitro",
+        "URL" : "https://cdn-images.dzcdn.net/images/cover/fde9fab0eec074ad9ab2bc436166df31/1900x1900-000000-80-0-0.jpg",
+        "pubblication-year" : 2015,
+        "genre" : "Rap, Hip Hop italiano"
+        },
+        {
+        "title" : "90MIN",
+        "artist" : "Salmo",
+        "URL" : "https://i.ytimg.com/vi/0-uR-ade_3Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJ2G96_vcTgF4Lbgn3YBNe2lZZFg",
+        "pubblication-year" : 2018,
+        "genre" : "Hip Hop, Political Hip Hop, Pop Rap"
+        }
+    ]
