@@ -4,7 +4,7 @@
 
 📌Consigli
 Nello svolgere l’esercizio seguite un approccio graduale.
-Prima assicuratevi che la vostra pagina index.php (riesca a comunicare correttamente con il vostro script PHP)
+✅Prima assicuratevi che la vostra pagina index.php (riesca a comunicare correttamente con il vostro script PHP)
 Solo a questo punto sarà utile passare alla lettura della lista da un file JSON.
 
 📌Bonus
