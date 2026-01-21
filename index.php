@@ -21,7 +21,22 @@ require_once "./server.php";
 </head>
 
 <body>
-    <h1>Dischi</h1>
+    <div class="container">
+        <h1>Dischi</h1>
+
+        <ul>
+            <?php foreach ($dischi as $disco) { ?>
+                <li>
+                    <img src="<?php echo $disco['URL']; ?>" alt="cover">
+                    <strong><?php echo $disco['title']; ?></strong><br>
+                    Artista: <?php echo $disco['artist']; ?><br>
+                    Anno: <?php echo $disco['pubblication-year']; ?><br>
+                    Genere: <?php echo $disco['genre']; ?>
+                </li>
+            <?php } ?>
+        </ul>
+
+    </div>
 </body>
 
 </html>
