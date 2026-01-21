@@ -23,21 +23,21 @@ require_once "./server.php";
     <title>Web-app-dischi</title>
 </head>
 
-<body>
+<body class="bg-secondary">
 
+    <div class="row align-items-start bg-dark mb-3 ps-5">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/031/737/196/small/spotify-icon-spotify-social-media-logo-free-png.png"
+            alt="music-logo"
+            class="my-4 float-start"
+            style="width:90px; height:auto;">
+    </div>
     <div class="container">
-        <div class="row align-items-start">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/031/737/196/small/spotify-icon-spotify-social-media-logo-free-png.png"
-                alt="music-logo"
-                class="my-4 float-start"
-                style="width:90px; height:auto;">
-        </div>
-        <div class="row border rounded mb-3 py-4">
+        <div class="row mb-3 py-4">
             <?php foreach ($dischi as $disco) { ?>
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100 border border-3">
                         <img src="<?php echo $disco['URL']; ?>" class="card-img-top" alt="cover">
-                        <div class="card-body">
+                        <div class="card-body bg-dark text-light">
                             <h5 class="card-title"><?php echo $disco['title']; ?></h5>
                             <p class="card-text">
                                 <strong>Artista:</strong> <?php echo $disco['artist']; ?><br>
@@ -50,10 +50,11 @@ require_once "./server.php";
             <?php } ?>
         </div>
 
+        <hr class="order border-5 border-light">
 
-        <h1 class="my-4 text-center">Form per aggiungere un nuovo disco</h1>
+        <h1 class="my-4 text-center text-light">Form per aggiungere un nuovo disco</h1>
         <form action="server.php" method="POST" class="my-5">
-            <div class="card p-4">
+            <div class="card p-4 bg-dark text-light">
                 <div class="mb-3">
                     <label for="title" class="form-label">Titolo</label>
                     <input type="text" id="title" name="title" class="form-control" placeholder="Titolo canzone..." required>
@@ -77,8 +78,8 @@ require_once "./server.php";
                 <button class="btn btn-primary">Aggiungi artista</button>
             </div>
         </form>
-
     </div>
+
 
 
 </body>
