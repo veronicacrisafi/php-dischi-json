@@ -1,7 +1,6 @@
 <?php
-$json_list = file_get_contents('./musicRecord.json');
-
-$dischi = json_decode($json_list, true);
+require_once './function.php';
+$dischi = getDischi();
 
 if (
     isset($_POST['title']) &&
